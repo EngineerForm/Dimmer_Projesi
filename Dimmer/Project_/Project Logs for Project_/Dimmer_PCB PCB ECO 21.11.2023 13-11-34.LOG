@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetC1_2 Pin=C1-2
+Removed Member From Class: ClassName=Main Member=C1
+Added Component: Designator=C?(10mm_CAP)
+Add component (AddParameter): Name = "value"; Value = "47nF 630V 10mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_2 Pin=C?-2
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetC?_2
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=R4-1
+Added Net: Name=NetC?_1
+Added Member To Class: ClassName=Main Member=Component C? 47nF 630V 10mm
